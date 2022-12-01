@@ -1,0 +1,191 @@
+.logo-img{grid-area:logo-img;}
+.about{grid-area:about;}
+.award{grid-area: award;}
+.contact{grid-area: contact;}
+
+.nav{
+display: grid;
+grid-template-areas:
+'logo-img logo-img about award contact';
+color: : #0a0a0a;
+
+
+}
+.nav div{
+text-align: center;
+}
+
+.about{
+padding-top: 15px;
+justify-self:end;
+}
+.award{
+padding-top: 15px;
+justify-self:center;
+}
+.contact{
+padding-top: 15px;
+justify-self:start;
+}
+
+.text1{
+background-image: url(background-layer.png);
+width: 1350px;
+height: 700px;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+flex-direction: column;
+}
+#about-us{
+text-align: center;
+
+}
+.vision{grid-area: vision;}
+.mission{grid-area: mission;}
+.mv{
+display: grid;
+grid-template-areas:
+'vision mission';
+
+}
+.mission{
+padding-right: 70px;
+padding-top: 50px;
+}
+.vision{
+padding-left: 215px;
+padding-top: 50px;
+padding-right: 70px
+
+}
+.atext{grid-area: atext;}
+.a1{grid-area: a1;}
+.a2{grid-area: a2;}
+.a3{grid-area: a3;}
+.a4{grid-area: a4;}
+#awards{
+display: grid;
+grid-template-areas:
+'atext atext atext atext'
+'a1 a2 a3 a4';
+}
+.atext{
+text-align: center;
+padding-top: 40px;
+}
+#awards img{
+height: 280px;
+width: 320px;
+
+
+}
+.a1{
+padding-left: 50px;
+}
+.a1_d{
+grid-area: a1_d;
+font-size: 10px;}
+.a2_d{grid-area: a2_d;
+ font-size: 10px;}
+.a3_d{grid-area: a3_d;
+ font-size: 10px;}
+.a4_d{grid-area: a4_d;
+ font-size: 10px;}
+.oa{
+display: grid;
+grid-template-areas:
+'a1_d a2_d a3_d a4_d';
+}
+#one{
+padding-left: 160px;
+font-size: 15px;
+
+}
+#two{
+padding-left: 150px;
+font-size: 15px;
+
+}
+#three{
+padding-left:110px;
+font-size: 15px;
+}
+#four{
+padding-left: 150px;
+font-size: 15px;
+
+}
+#w{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+#x{
+padding-left: 90px;
+}
+#y{
+display: flex;
+align-items: center;
+justify-content: center;
+padding-left: 20px
+
+}
+#z{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+#award-sec{
+background-color: #E4DFDE;
+ 
+}
+.get{
+grid-area: get;
+text-align: center;
+align-items: center;
+padding-top: 20px;
+}
+.hubspot{
+grid-area: hubspot;
+}
+.loc{grid-area: loc;}
+#get_in_touch{
+display: grid;grid-template-areas:
+'get get get get get'
+'hubspot hubspot hubspot hubspot loc';
+}
+.copy{grid-area: copy;
+ padding-top: 30px;
+ padding-bottom: 80px;
+ padding-left:90px; }
+.icons{grid-area: icons;
+  padding-top: 30px;
+  padding-bottom: 80px;
+  }
+.footer{
+display: grid;
+grid-template-areas:
+'copy copy copy icons';
+background-color: #139139;
+height: 80px;
+color: white;
+
+
+}
+.fa-instagram {  
+  background: #125688;  
+  color: white;  
+}  
+.fa-facebook {  
+  background: #3B5998;  
+  color: white;  
+}  
+.fa-twitter {  
+  background: #55ACEE;  
+  color: white;  
+}  
